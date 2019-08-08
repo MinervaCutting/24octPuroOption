@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="CICERON" />
+
+
+<title>PURO BEACH - HILTON OPTION</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="FORMATO.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">CE Events</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Quotation</a>
+</li>
+<li>
+  <a href="about.html">Credentials</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">PURO BEACH - HILTON OPTION</h1>
+<h4 class="author"><em>CICERON</em></h4>
+<h4 class="date"><em>October 24th, 2019</em></h4>
+
+</div>
+
+
+<script> 
+    $(document).ready(function() { 
+    $head = $('#header'); 
+    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="LOGO.png" width="150" vspace="50" align="right"></A>') 
+    }); 
+</script>
+<div id="puro-beach-barcelona" class="section level2">
+<h2><strong>Puro Beach Barcelona</strong></h2>
+<p><strong>Puro Beach</strong> is located at the Hilton Diagonal’s terrace just 3 minutes walking from Hotel Barcelona Princess. But is not central located and there are no nightclubs in the area for the afterparty (in case guests would like to).</p>
+<p>To go to <strong>El Principal</strong> you will need bus transfer from the hotel but it is located between Passeig de Gràcia and Rambla Catalunya, two of the most important streets of the city, so you will find a lot of bars and nightclubs near the restaurant as <strong>Sutton</strong> or <strong>Bling Bling</strong>, for example… You can see it on the map below:</p>
+<iframe src="https://www.google.com/maps/d/embed?mid=1o65Rnwm97T9EHCxZJd0rAj8VtsUAQ5uP&amp;hl=es" width="100%" height="480">
+</iframe>
+<p><strong>Puro Beach</strong> is a breathtaking place to enjoy a BBQ or Cocktail dinner around the pool and enjoy relaxed chill-out music and some drinks after dinner but <strong>the music is allowed only until 22.00h</strong>,the hotel has its own DJ and the maximum volum has to be 75ddB (A) after this hour they can stay but without music…</p>
+<p>The huge terrace of the hotel Hilton Diagonal Mar has different areas. The Puro Beach area is the swimmingpool area, here you can see some pictures:</p>
+<p><img src = "puro2.jpg" width="100%"></p>
+<p><img src = "puro3.jpg" width="100%"></p>
+<p><img src = "puro4.jpg" width="100%"></p>
+<p><strong>IMPORTANT NOTE</strong>:In the other area (La Pergola) will be another event. We won’t be mixed but they will see each others.</p>
+<p>As backup, in case of bad weather, the option would be to do the dinner at <strong>Restaurant Indigo</strong>. It is located at the hotel’s first floor and it has a terrace (small) that will allow to prepare the BBQ menu.</p>
+<p><img src = "indigo1.png" width="100%"> <img src = "indigo2.png" width="100%"> <img src = "indigo3.png" width="100%"></p>
+<hr />
+<p>Puro Beach offers different set menus, but we would recommend to choose one of the BBQ menus that are very suitable for this kind of atmosphere:</p>
+<div id="menu-options" class="section level3 tabset tabset-fade">
+<h3>MENU OPTIONS</h3>
+<div id="puro-bbq" class="section level4">
+<h4>PURO BBQ</h4>
+<pre><code>FOOD STATION
+· Mix of lettuces, tomato, peppers, grated carrot, olives, hard-boiled egg, corn in grain, palm hearts, asparagus.
+· Summer potato salad with tuna
+· Greek salad with dressing
+· Hummus with bread spikes
+
+BBQ
+· hicken thighs marinated in Cajun
+· Butifarra de Pagès (Catalan pork sausage)
+· Beef skewers
+· Angus burgers with their condiments
+
+GARNISHES
+· Grilled vegetables
+· Baked potatoes
+
+SAUCES
+· All i Oli
+· Mayonnaise
+· BBQ sauce
+· Tartare sauce
+· Vinaigrettes
+
+DESSERTS
+
+· Chocolate brownie 70% cocoa
+· Carrot cake
+· Crème brulee
+· Fresh laminated fruit
+
+Rates: 59€ VAT inc 
+Drinks not included (1,5h duration)</code></pre>
+</div>
+<div id="puro-bbq-deluxe" class="section level4">
+<h4>PURO BBQ DELUXE</h4>
+<pre><code>FOOD STATION
+· Mix of lettuces, tomato, peppers, grated carrot, olives, hard-boiled egg, corn in grain, palm hearts, asparagus
+· Spinach salad with mango, orange grapefruit, cashews and sage oil
+· Salad of roasted peppers with sherry vinaigrette
+· Fattoush salad with pomegranate, pepper, tomato, onion, lime and lemon vinaigrette
+· Manchego cheese marinated with extra virgin olive oil
+· Shrimp ceviche
+
+BBQ
+· Mini entrecôte
+· Squids Skewer
+· Prawns brochette
+· Marinated Tandoori Chicken skewer
+· Cajun Salmon
+
+GARNISHES
+· Grilled vegetables
+· Baked potatoes
+
+SAUCES
+· All i Oli
+· Mayonnaise
+· BBQ sauce
+· Tartare sauce
+· Vinaigrettes
+
+DESSERTS
+
+· Catalan cream puff pastry &amp; fruits
+· Chocolate mousse
+· Cheescake
+· Almond cake with maple syrup
+· Fruit skewers
+
+Rates: 81€ VAT inc 
+Drinks not included (1,5h duration)</code></pre>
+</div>
+<div id="cocktail-reception" class="section level4">
+<h4>COCKTAIL RECEPTION</h4>
+<pre><code>COLD TAPAS
+· Glass of lettuce with Gorgonzola cheese and nuts
+· Mini wheat tart with branded cod and pine nuts
+· Tartar cup of tomato and prawns with crispy Parma cheese
+· Tikka Masala chicken cake pops
+· Salmon cake pops with guacamole
+· Classic Hummus with paprika oil and spiced bread stick
+· Poke salad with tuna and Hawaiian salt
+· Coca bread with ham and tomato
+· Shrimp ceviche with lemon lime
+· Vegetable wrap with spinach, beetroot Hummus, avocado and lettuce
+
+HOT TAPAS
+· Croquettes of ham or cod
+· Crunchy prawns with yellow pepper
+· Crunchy chicken sticks with Romesco sauce
+· Delhi vegetable samosas with mint sauce
+· Mini pita bread with beef and barbecue sauce
+· Mini pita bread with duck confit, apple and yogurt sauce
+· Serranitos stuffed with veal (sirloin)
+· Mini green bao bread stuffed with sautéed asparagus and mushrooms
+· Mini bao bread stuffed with red pesto and mozzarella
+· Mini white classic bao bread stuffed with Andalusian calamari
+· Glass of leeks cream with sautéed scallops
+· Mini quesadillas with jalapeños peppers
+· Gyozas of octopus / Mexican chicken / vegetables
+
+DESSERTS
+· Mini Crêpes filled with vanilla ice cream and chocolate sauce
+· Mini ginos
+· Brownie (gluten free) with English cream
+· Strawberries Panna cotta with chantilly
+· 70% chocolate mousse with candied orange
+· Catalan cream with passion fruit
+· Profiteroles stuffed with truffle
+· Opera cake
+· Creamy violet mousse with &quot;mel i mató&quot;
+· Carrot cake with frosting
+
+13 TAPAS TO CHOOSE (5 cold + 5 hot + 3 desserts): 69€ VAT inc
+Duration 1h pass around service / Supplement for every extra piece 5€ / Drinks not included</code></pre>
+<hr />
+</div>
+</div>
+<div id="drink-packages" class="section level3 tabset tabset-fade">
+<h3>DRINK PACKAGES</h3>
+<div id="puro-selection" class="section level4">
+<h4>PURO SELECTION</h4>
+<pre><code>Blanc de Pacs (D.O. Penedès, España)
+Macabeu, Xarel-lo, Parellada
+Mas Petit (D.O. Penedès, España)
+Cabernet Sauvignon, Garnacha
+Ros de Pacs (D.O. Penedès, España)
+Merlot, Syrah, Cabernet Sauvignon
+Beer
+Soft drinks
+Still and sparking water
+Coffee
+
+Rates per person (1.5h): 31€ VAT inc</code></pre>
+</div>
+<div id="puro-quality" class="section level4">
+<h4>PURO QUALITY</h4>
+<pre><code>Blanc de Pacs (D.O. Penedès, España)
+Macabeu, Xarel-lo, Parellada
+Mas Petit (D.O. Penedès, España)
+Cabernet Sauvignon, Garnacha
+Ros de Pacs (D.O. Penedès, España)
+Merlot, Syrah, Cabernet Sauvignon
+Beer
+Soft drinks
+Still and sparking water
+Coffee
+
+Cava (Parellada, Viura / Macabeo, Xarello - D.O. Penedès)
+House gin &amp; tonics
+Aperol spritz
+
+Rates per person (1.5h): 47,50€ VAT inc</code></pre>
+<hr />
+</div>
+</div>
+</div>
+<div id="terms-conditions" class="section level2">
+<h2>Terms &amp; Conditions</h2>
+<ul>
+<li><p>Rates valid for 2019.</p></li>
+<li><p>Net rates for CICERON</p></li>
+<li><p>For a group of minimum 300 pax.</p></li>
+<li><p>Cutting Edge Events management fee including in the detailed rates</p></li>
+<li><p>VAT included.</p></li>
+<li><p>Space blocked - Release date: August 15th, 2019</p></li>
+</ul>
+<hr />
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
